@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Task 4</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+
+  <!-- header nav uses flexbox, from style.css -->
+  <header class="navbar">
+    <div class="nav-logo">MyPage</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cards.html">Cards</a></li>
+      <li><a href="grid-layout.html">Grid Layout</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <h1>Task 4: Portfolio Page</h1>
+    <p class="subtitle">Flexbox navbar + flexbox project cards, laid out inside a CSS Grid main section.</p>
+
+    <!-- main section is grid: projects on the left, sidebar on the right -->
+    <div class="portfolio-main">
+      <div class="projects">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>Small web app built for a class assignment, uses flexbox for the internal layout.</p>
+          <button class="project-btn">View Project</button>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Another project card, same structure - title, description, button, all flexed in a column.</p>
+          <button class="project-btn">View Project</button>
+        </div>
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>Last one, keeping it consistent with the rest.</p>
+          <button class="project-btn">View Project</button>
+        </div>
+      </div>
+
+      <aside class="side-info">
+        <h3>About Me</h3>
+        <ul>
+          <li>Software Engineering student</li>
+          <li>Learning Flexbox & Grid</li>
+          <li>Astana IT University</li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer class="p-footer">Portfolio footer - spans the bottom</footer>
+  </main>
+
+</body>
+</html>
